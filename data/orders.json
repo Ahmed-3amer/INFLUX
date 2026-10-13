@@ -1,0 +1,25 @@
+[
+  {
+    "orderNumber": "INF-26-9922",
+    "createdAt": "2026-10-13T18:52:51.957Z",
+    "status": "pending_confirmation",
+    "customer": {
+      "name": "أحمد محمود",
+      "phone": "01012345678",
+      "governorate": "القاهرة",
+      "city": "التجمع الخامس",
+      "street": "شارع التسعين الشمالي"
+    },
+    "items": [
+      {
+        "id": "oud-royale",
+        "nameAr": "عود رويال",
+        "quantity": 1,
+        "price": 950
+      }
+    ],
+    "total": 950,
+    "locale": "ar",
+    "paymentMethod": "COD"
+  }
+]

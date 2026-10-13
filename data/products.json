@@ -1,0 +1,224 @@
+[
+  {
+    "id": "oud-royale",
+    "nameAr": "عود رويال",
+    "nameEn": "Oud Royale",
+    "taglineAr": "خشب الصندل، العود الكمبودي والكهرمان الملكي",
+    "taglineEn": "Cambodian Oud, Sandalwood & Royal Amber",
+    "price": 950,
+    "size": "100ml / 3.4 FL. OZ.",
+    "concentration": "Extrait de Parfum (30%)",
+    "discountPercent": 15,
+    "discountActive": false,
+    "inStock": true,
+    "featured": true,
+    "scentCharacterAr": "عنبري / خشبي / دافئ",
+    "scentCharacterEn": "Amber / Woody / Warm",
+    "longevityAr": "ثبات يتجاوز ١٤ ساعة",
+    "longevityEn": "14+ Hours Longevity",
+    "sillageAr": "فوحان راقٍ وأنيق",
+    "sillageEn": "Intimate & Refined Sillage",
+    "occasionAr": "المناسبات الخاصة والأمسيات",
+    "occasionEn": "Evening & Signature Occasions",
+    "image": "/images/products/oud-royale.jpg",
+    "descriptionAr": "تركيبة مهيبة تحتفي بأفخر فصائل العود والراتنجات الشرقية، مع لمسة ناعمة من الفانيليا الداكنة والجلود الفاخرة لتمنحك حضوراً هادئاً ومهيباً.",
+    "descriptionEn": "A majestic composition celebrating the rarest grades of Cambodian oud and precious oriental balsams, underscored by dark vanilla and supple leather.",
+    "topNotesAr": [
+      "الهيل الغواتيمالي",
+      "الزعفران النقي",
+      "البرغموت الإيطالي"
+    ],
+    "topNotesEn": [
+      "Guatemalan Cardamom",
+      "Pure Saffron",
+      "Italian Bergamot"
+    ],
+    "heartNotesAr": [
+      "الورد الدمشقي",
+      "العود الكمبودي المعتق",
+      "أخشاب الأرز"
+    ],
+    "heartNotesEn": [
+      "Damask Rose",
+      "Aged Cambodian Oud",
+      "Atlas Cedarwood"
+    ],
+    "baseNotesAr": [
+      "الكهرمان الدافئ",
+      "الفانيليا الداكنة",
+      "الجلود المدبوغة",
+      "المسك الأبيض"
+    ],
+    "baseNotesEn": [
+      "Warm Amber",
+      "Dark Vanilla",
+      "Smoked Leather",
+      "White Musk"
+    ]
+  },
+  {
+    "id": "cedar-mist",
+    "nameAr": "سيدار ميست",
+    "nameEn": "Cedar Mist",
+    "taglineAr": "خشب الأرز الأطلسي، الفلفل الوردي والبرغموت المنعش",
+    "taglineEn": "Atlas Cedar, Pink Pepper & Crisp Bergamot",
+    "price": 750,
+    "size": "100ml / 3.4 FL. OZ.",
+    "concentration": "Extrait de Parfum (28%)",
+    "discountPercent": 15,
+    "discountActive": true,
+    "inStock": true,
+    "featured": true,
+    "scentCharacterAr": "منعش / حمضيات / نقي",
+    "scentCharacterEn": "Fresh / Citrus / Clean",
+    "longevityAr": "ثبات ١٠-١٢ ساعة",
+    "longevityEn": "10-12 Hours Longevity",
+    "sillageAr": "هالة ناعمة منعشة",
+    "sillageEn": "Crisp & Subdued Sillage",
+    "occasionAr": "الاستخدام اليومي وأوقات العمل",
+    "occasionEn": "Daily Signature & Daytime",
+    "image": "/images/products/cedar-mist.jpg",
+    "descriptionAr": "نفحات صباحية رشيقة تمزج نقاء أخشاب الأرز مع انتعاش الحمضيات الإيطالية ولمسات خضراء مهدئة، مصممة لأصحاب الذوق اليومي الرفيع.",
+    "descriptionEn": "A crisp morning breeze intertwining noble Atlas cedarwood with the freshness of Italian citrus and serene botanical accords.",
+    "topNotesAr": [
+      "البرغموت الصقلي",
+      "الفلفل الوردي",
+      "المندرين الأخضر"
+    ],
+    "topNotesEn": [
+      "Sicilian Bergamot",
+      "Pink Peppercorn",
+      "Green Mandarin"
+    ],
+    "heartNotesAr": [
+      "خشب الأرز الأطلسي",
+      "المريمية النقية",
+      "العرعر البري"
+    ],
+    "heartNotesEn": [
+      "Atlas Cedar",
+      "Clary Sage",
+      "Wild Juniper"
+    ],
+    "baseNotesAr": [
+      "نجيل الهند الهايتي",
+      "المسك الشفاف",
+      "خشب الغاياك"
+    ],
+    "baseNotesEn": [
+      "Haitian Vetiver",
+      "Clean Musk",
+      "Guaiacwood"
+    ]
+  },
+  {
+    "id": "noir-essence",
+    "nameAr": "نوار إيسنس",
+    "nameEn": "Noir Essence",
+    "taglineAr": "التبغ الكوبي، حبوب التونكا والباتشولي الإندونيسي",
+    "taglineEn": "Cuban Tobacco, Tonka Bean & Indonesian Patchouli",
+    "price": 1100,
+    "size": "100ml / 3.4 FL. OZ.",
+    "concentration": "Extrait de Parfum (32%)",
+    "discountPercent": 20,
+    "discountActive": false,
+    "inStock": true,
+    "featured": true,
+    "scentCharacterAr": "توابل دافئة / عميق / غامض",
+    "scentCharacterEn": "Spiced / Deep / Bold",
+    "longevityAr": "ثبات يفوق ١٦ ساعة",
+    "longevityEn": "16+ Hours Longevity",
+    "sillageAr": "أثر عميق يسبقك في كل مكان",
+    "sillageEn": "Deep & Captivating Presence",
+    "occasionAr": "الأمسيات الشتوية والمناسبات الكبرى",
+    "occasionEn": "Night Out & Formal Black Tie",
+    "image": "/images/products/noir-essence.jpg",
+    "descriptionAr": "عطر ليلي ساحر يفيض بالعمق والغموض، يجمع أوراق التبغ المدخنة مع دفء التونكا والأخشاب العميقة ليعبر عن حضور لا يُمحى.",
+    "descriptionEn": "A deeply hypnotic evening elixir blending golden tobacco leaves with warm tonka bean and opulent Indonesian patchouli.",
+    "topNotesAr": [
+      "جوزة الطيب",
+      "القرفة السيلانية",
+      "الزنجبيل المنعش"
+    ],
+    "topNotesEn": [
+      "Nutmeg",
+      "Ceylon Cinnamon",
+      "Fresh Ginger"
+    ],
+    "heartNotesAr": [
+      "أوراق التبغ الذهبي",
+      "حبوب التونكا المحمصة",
+      "اللبان العماني"
+    ],
+    "heartNotesEn": [
+      "Golden Tobacco Leaves",
+      "Roasted Tonka",
+      "Omani Frankincense"
+    ],
+    "baseNotesAr": [
+      "الباتشولي الإندونيسي",
+      "خشب الأبنوس",
+      "الراتنج البلسمي"
+    ],
+    "baseNotesEn": [
+      "Indonesian Patchouli",
+      "Ebony Wood",
+      "Balsamic Benzoin"
+    ]
+  },
+  {
+    "id": "velvet-garden",
+    "nameAr": "فيلفت جاردن",
+    "nameEn": "Velvet Garden",
+    "taglineAr": "السوسن الإيطالي، الياسمين الملكي والمسك المخملي",
+    "taglineEn": "Italian Iris, Royal Jasmine & Velvet Musk",
+    "price": 850,
+    "size": "100ml / 3.4 FL. OZ.",
+    "concentration": "Extrait de Parfum (28%)",
+    "discountPercent": 10,
+    "discountActive": false,
+    "inStock": true,
+    "featured": true,
+    "scentCharacterAr": "زهري مخملي / بودري / راقٍ",
+    "scentCharacterEn": "Green / Smooth / Refined",
+    "longevityAr": "ثبات ١٢-١٤ ساعة",
+    "longevityEn": "12-14 Hours Longevity",
+    "sillageAr": "أثر بودري ناعم وفاتن",
+    "sillageEn": "Soft Powdery Aura",
+    "occasionAr": "جميع الأوقات والأناقة الهادئة",
+    "occasionEn": "All-Day Elegance & Leisure",
+    "image": "/images/products/velvet-garden.jpg",
+    "descriptionAr": "حديقة سرية في سكون الفجر؛ تناغم حريري بين بودرة السوسن الإيطالي النادر وبتلات الياسمين الأبيض، يلفها دفء المسك المخملي النقي.",
+    "descriptionEn": "A private garden at dawn; a velvety harmony between rare Florentine iris powder, royal jasmine petals, and cashmere white musk.",
+    "topNotesAr": [
+      "زهر البرتقال",
+      "الكمثرى البيضاء",
+      "الكشمش الهادئ"
+    ],
+    "topNotesEn": [
+      "Neroli",
+      "White Pear",
+      "Soft Cassis"
+    ],
+    "heartNotesAr": [
+      "السوسن الإيطالي",
+      "الياسمين الملكي",
+      "زنبق الوادي"
+    ],
+    "heartNotesEn": [
+      "Florentine Iris",
+      "Royal Jasmine",
+      "Lily of the Valley"
+    ],
+    "baseNotesAr": [
+      "المسك المخملي",
+      "أخشاب الكشمير",
+      "العنبر الأبيض"
+    ],
+    "baseNotesEn": [
+      "Velvet Musk",
+      "Cashmere Woods",
+      "White Amber"
+    ]
+  }
+]

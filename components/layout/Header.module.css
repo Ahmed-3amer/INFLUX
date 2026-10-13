@@ -1,0 +1,210 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: rgba(247, 243, 235, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-light);
+  transition: transform var(--duration-fast) var(--ease-luxury), background-color var(--duration-fast);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 var(--container-padding);
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+/* Navigation items */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.navLink {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  position: relative;
+  padding: 6px 0;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: var(--accent-burgundy);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--duration-fast) var(--ease-luxury);
+}
+
+[dir="rtl"] .navLink::after {
+  transform-origin: left;
+}
+
+.navLink:hover::after,
+.navLink.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+[dir="rtl"] .navLink:hover::after,
+[dir="rtl"] .navLink.active::after {
+  transform-origin: right;
+}
+
+/* Logo in center */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoImage {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity var(--duration-fast);
+}
+
+.logoContainer:hover .logoImage {
+  opacity: 0.85;
+}
+
+/* Actions on right */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.langSwitch {
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  transition: all var(--duration-fast) var(--ease-luxury);
+  text-transform: uppercase;
+}
+
+.langSwitch:hover {
+  color: var(--text-primary);
+  border-color: var(--text-primary);
+}
+
+.cartButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color var(--duration-fast);
+}
+
+.cartButton:hover {
+  color: var(--accent-burgundy);
+}
+
+.cartBadge {
+  position: absolute;
+  top: 2px;
+  right: -2px;
+  background-color: var(--accent-burgundy);
+  color: #FFFFFF;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  min-width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  padding: 0 4px;
+}
+
+[dir="rtl"] .cartBadge {
+  right: auto;
+  left: -2px;
+}
+
+/* Mobile Hamburger */
+.mobileMenuToggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Mobile Drawer / Overlay */
+.mobileMenuOverlay {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileMenuToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobileMenuOverlay {
+    display: block;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(23, 18, 13, 0.4);
+    z-index: 45;
+  }
+
+  .mobileMenuContent {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: var(--space-6) var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    box-shadow: var(--shadow-card);
+    z-index: 46;
+  }
+
+  .mobileNavLink {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-primary);
+  }
+}

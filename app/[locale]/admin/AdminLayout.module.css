@@ -1,0 +1,88 @@
+.adminWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.adminHeader {
+  height: 72px;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.adminHeaderInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brandGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.adminBadge {
+  font-size: var(--font-size-meta);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  background-color: var(--bg-secondary);
+  color: var(--accent-burgundy);
+  border: 1px solid var(--border-medium);
+}
+
+.devNoticeBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-meta);
+  font-weight: 500;
+  background-color: rgba(118, 26, 53, 0.08);
+  color: var(--accent-burgundy);
+  border: 1px solid rgba(118, 26, 53, 0.2);
+  padding: 4px 12px;
+}
+
+.actionsGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.langBtn {
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 6px 12px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-card);
+  transition: all var(--duration-fast) var(--ease-luxury);
+}
+
+.langBtn:hover {
+  border-color: var(--text-primary);
+}
+
+.adminMain {
+  flex: 1;
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-16);
+}
+
+.adminFooter {
+  padding: var(--space-6) 0;
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--bg-card);
+  font-size: var(--font-size-meta);
+  color: var(--text-secondary);
+  text-align: center;
+}

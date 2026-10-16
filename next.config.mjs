@@ -9,13 +9,13 @@ const nextConfig = {
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      'next-intl/config': path.resolve(process.cwd(), 'i18n/request.js'),
+      'next-intl/config': path.resolve(process.cwd(), 'i18n/request.ts'),
     };
     return config;
   },
   turbopack: {
     resolveAlias: {
-      'next-intl/config': './i18n/request.js',
+      'next-intl/config': './i18n/request.ts',
     },
   },
 };
